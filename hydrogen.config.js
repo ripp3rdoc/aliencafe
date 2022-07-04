@@ -1,5 +1,6 @@
 import {defineConfig, CookieSessionStorage} from '@shopify/hydrogen/config';
-require('dotenv').config();
+import dotenv from 'dotenv';
+dotenv.config();
 
 export default defineConfig({
   shopify: {
